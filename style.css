@@ -1,0 +1,89 @@
+/* шпаргалка по grid: https://tpverstak.ru/grid/ */
+/* шпаргалка по flex: https://tpverstak.ru/flex-cheatsheet/ */
+
+body{
+    background: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.mainText {
+    display: flex;
+    justify-content: center;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+
+   
+
+}
+
+#textRequest{
+    display: flex;
+    justify-content: center;
+}
+
+.post{
+    display: grid;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 300px;
+   
+}
+
+
+
+#main-container {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+html {
+    background-color: aquamarine;
+}
+
+.comment {
+    display: grid;
+    justify-content: center;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 400px;
+}
+
+#commentBodyText {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    
+}
+
+#commentMain {
+    display: flex;
+    background-color: mediumblue;
+}
+
+#commentInfo {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    background-color: aqua;
+}
+
+.todos {
+   display: grid;
+   grid-template-columns: 50px 1fr;
+   background-color: crimson;
+   width: 600px;
+}
+
+#postId {
+    display: flex;
+    
+}
+
+
+
+
